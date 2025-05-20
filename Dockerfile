@@ -12,7 +12,7 @@ RUN apt-get install -y $PACKAGES
 # Update ca certs
 RUN update-ca-certificates
 
-ARG VERSION=v1.1.1
+ARG VERSION=v1.1.2
 
 RUN git clone https://github.com/imua-xyz/imuachain.git \
     && cd imuachain \
